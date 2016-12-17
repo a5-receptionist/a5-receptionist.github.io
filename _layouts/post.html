@@ -2,6 +2,7 @@
 <html dir="ltr" lang="ja">
 <head>
   {% include head.html %}
+  {% stylesheet blog %}
 </head>
 <body>
   {% include gtm.html %}
@@ -12,11 +13,21 @@
     </p>
   <![endif]-->
 
-  {{ content }}
+  <div id="low_page" class="wrap_all">
+    <article id="blog" class="article">
+      <h1 class="article__title w_const">{{ page.title }}</h1>
+      <div class="article__conts w_const">
+      <div id="date">{{ page.date | date: "%Y-%m-%d" }}</div>
+        <div class="post">
+        {{content}}
+        </div>
+      </div>
+    </article>
+  </div>
 
   {% include footer.html %}
   {% include header.html %}
   {% include javascripts.html %}
+  <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
-あなたの経験を改善するためにあなたのブラウザをアップグレードしてください。

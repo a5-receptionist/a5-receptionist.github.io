@@ -17,7 +17,7 @@ gulp.task('imagemin', function() {
     })
   ];
  
-  gulp.src( srcGlob )
+  gulp.src(srcGlob)
     .pipe(imagemin(imageminOptions))
     .pipe(gulp.dest(dstGlob));
 });
