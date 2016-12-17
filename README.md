@@ -29,3 +29,6 @@ Run this in the root project folder in your console:
     bin/deploy
 
 [View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
+
+a
+
