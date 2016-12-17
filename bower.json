@@ -1,0 +1,6 @@
+{
+  "name": "my_awesome_site",
+  "dependencies": {
+    "jquery": "~3.1.1"
+  }
+}
