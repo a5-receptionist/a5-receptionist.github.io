@@ -7,7 +7,7 @@ machine:
 
 dependencies:
   pre:
-    - ./bin/setup
+    - sh ./bin/setup
 
 test:
   post:
@@ -19,4 +19,4 @@ deployment:
   production:
     branch: draft
     commands:
-      - ./bin/automated
+      - sh ./bin/automated
