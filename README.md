@@ -1,4 +1,4 @@
-# MyAwesomeSite
+# HOGE
 
 ## Installation
 
